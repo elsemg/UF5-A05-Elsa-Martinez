@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Algunes formes geomètriques.</title>
+        <link rel="icon" href="novenoapartado.jpeg" type="image/jpeg">
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="novenoapartado.css" title="style"/>
+        <h1>Algunes formes geomètriques.</h1>
+        <h2>Triangles, tant normal com invertit.</h2>
+        <h2>També un cercle.</h2>
+        <canvas id="myCanvas" width="500" height="500"></canvas>
+        <script>
+        var canvasElement = document.querySelector("#myCanvas");
+        var c = canvasElement.getContext("2d");
+        c.beginPath();
+        c.fillStyle="rgb(21,210,147)"
+        c.moveTo(250,0)
+        c.lineTo(100,250)
+        c.lineTo(400,250)
+        c.fill()
+        c.closePath()
+        c.beginPath();
+        c.fillStyle="rgb(52,210,21)"
+        c.moveTo(100,250)
+        c.lineTo(400,250)
+        c.lineTo(250,500)
+        c.fill()
+        c.closePath()
+        </script>
+        <script>
+        var c = document.getElementById("myCanvas");
+        var cercle = c.getContext("2d");
+        cercle.beginPath();
+        cercle.arc(95, 50, 40, 0, 2 * Math.PI);
+        cercle.stroke();
+        </script>
+    </body>
+</html>

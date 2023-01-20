@@ -1,0 +1,19 @@
+h1{
+    font-style: Arial;
+    color: rgb(0, 26, 255);
+}
+
+h2{
+    font-style: Arial;
+    color: rgb(255, 0, 0);
+}
+
+html{
+    font-style: Arial;
+    background-color: black;
+}
+
+p{
+    font-style: Arial;
+    color: rgb(255, 255, 255);
+}
